@@ -1,0 +1,32 @@
+#formulario{
+    display: flex;
+    flex-direction: column;
+    border: 1rem  pink;
+    width: 260px;
+    height: 205px;
+    margin: 5px;
+    background-color: blanchedalmond;
+}
+#formulario label{
+    background-color:antiquewhite ;
+}
+.iText{
+    background-color:rgb(192, 249, 230);
+}
+#botones{
+    background-color:cornsilk;
+}
+#btnSubmit #btnMostrar{
+    margin-top: 25px;
+    width: 90px;
+    height: 30px;
+}
+#containerPrincipal{
+    display: flex;
+    flex-direction: row;
+
+}
+#displayTodos, #displayTodos p,#DisplayTodos strong, #displayTodos h3 {
+    background-color:darkgrey;
+    margin: 5px;
+}
